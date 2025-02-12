@@ -1,0 +1,48 @@
+/*--------------
+    RESET
+--------------*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------
+    CARDS
+--------------*/
+
+.product-list {
+  text-align: center;
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  margin: 12px;
+  width: 250px;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-content {
+  font-size: 14px;
+}

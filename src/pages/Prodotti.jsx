@@ -1,4 +1,5 @@
 import axios from "axios";
+import "./ProductCard.css";
 import { useEffect, useState } from "react";
 
 export default function Prodotti() {
@@ -13,17 +14,21 @@ export default function Prodotti() {
   useEffect(fetchProducts, []);
 
   return (
-    <>
+    <div className="product-list">
       <h1>I nostri prodotti:</h1>
-      {products.map((product) => {
-        return (
-          <li key={product.id}>
-            <img src={product.image} alt={product.title} />
-            <h3>{product.title}</h3>
-            <p>{product.content}</p>
+      <ul>
+        {products.map((product) => (
+          <li key={product.id} className="product-card">
+            <img
+              className="product-image"
+              src={product.image}
+              alt={product.title}
+            />
+            <h3 className="product-title">{product.title}</h3>
+            <p className="product-content">{product.content}</p>
           </li>
-        );
-      })}
-    </>
+        ))}
+      </ul>
+    </div>
   );
 }
