@@ -9,8 +9,8 @@
 }
 
 /*--------------
-    GENERAL
---------------*/
+      GENERAL
+  --------------*/
 
 .container {
   max-width: 1200px;
@@ -27,8 +27,8 @@ body {
 }
 
 /*--------------
-    HEADER
---------------*/
+      HEADER
+  --------------*/
 
 header {
   background-color: #8c601f;
@@ -57,8 +57,8 @@ nav ul li a {
 }
 
 /*--------------
-    MAIN
---------------*/
+      MAIN
+  --------------*/
 main {
   background-color: #f4e1d2;
 }
@@ -83,8 +83,8 @@ main {
 }
 
 /*--------------
-    FOOTER
---------------*/
+      FOOTER
+  --------------*/
 
 footer {
   background-color: #333;
