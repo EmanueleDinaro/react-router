@@ -1,21 +1,23 @@
+import { NavLink } from "react-router-dom";
+
 export default function Header() {
   return (
     <header>
       <div className="logo">
-        <a href="">
+        <NavLink to="/">
           <img src="../../img/logo.jpg" alt="logo bakery" />
-        </a>
+        </NavLink>
       </div>
       <nav>
         <ul>
           <li>
-            <a href="#prodotti">Prodotti</a>
+            <NavLink to="/prodotti">Prodotti</NavLink>
           </li>
           <li>
-            <a href="#contatti">Contatti</a>
+            <NavLink to="/contatti">Contatti</NavLink>
           </li>
           <li>
-            <a href="#chi-siamo">Chi siamo</a>
+            <NavLink to="/about-us">Chi siamo</NavLink>
           </li>
         </ul>
       </nav>

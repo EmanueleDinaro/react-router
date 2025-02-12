@@ -1,43 +1,45 @@
+import { NavLink } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer>
       <ul>
         <li>
-          <a href="#prodotti">Prodotti</a>
+          <NavLink to="/prodotti">Prodotti</NavLink>
         </li>
         <li>
-          <a href="#contatti">Contatti</a>
+          <NavLink to="/contatti">Contatti</NavLink>
         </li>
         <li>
-          <a href="#chi-siamo">Chi siamo</a>
+          <NavLink to="/about-us">Chi siamo</NavLink>
         </li>
       </ul>
       <div className="social">
         <ul>
           <li>
-            <a href="#">
+            <NavLink to="#">
               <i class="fa-brands fa-facebook"></i>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#">
+            <NavLink to="#">
               <i class="fa-brands fa-instagram"></i>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#">
+            <NavLink to="#">
               <i class="fa-brands fa-x-twitter"></i>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#">
+            <NavLink to="#">
               <i class="fa-brands fa-threads"></i>
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="#">
+            <NavLink to="#">
               <i class="fa-brands fa-pinterest"></i>
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>
