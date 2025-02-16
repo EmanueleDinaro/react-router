@@ -61,6 +61,7 @@ nav ul li a {
   --------------*/
 main {
   background-color: #f4e1d2;
+  min-height: 100vh;
 }
 .hero {
   text-align: center;
@@ -105,4 +106,8 @@ footer ul li a {
 }
 footer .social {
   font-size: 30px;
+}
+
+.contact-main {
+  min-height: 100vh;
 }
